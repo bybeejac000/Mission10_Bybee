@@ -28,6 +28,7 @@ function BowlerList() {
             <th>City</th>
             <th>State</th>
             <th>Zip</th>
+            <th>Phone</th>
           </tr>
         </thead>
         <tbody>
@@ -41,6 +42,7 @@ function BowlerList() {
               <td>{b.city}</td>
               <td>{b.state}</td>
               <td>{b.bowlerZip}</td>
+              <td>{b.phone}</td>
             </tr>
           ))}
         </tbody>
