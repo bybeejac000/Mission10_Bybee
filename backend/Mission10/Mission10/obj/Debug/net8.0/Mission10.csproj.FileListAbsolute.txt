@@ -159,4 +159,4 @@ C:\Users\jakeb\source\repos\Mission10\backend\Mission10\Mission10\obj\Debug\net8
 C:\Users\jakeb\source\repos\Mission10\backend\Mission10\Mission10\obj\Debug\net8.0\Mission10.pdb
 C:\Users\jakeb\source\repos\Mission10\backend\Mission10\Mission10\obj\Debug\net8.0\Mission10.genruntimeconfig.cache
 C:\Users\jakeb\source\repos\Mission10\backend\Mission10\Mission10\obj\Debug\net8.0\ref\Mission10.dll
-C:\Users\jakeb\source\repos\Mission10\backend\Mission10\Mission10\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\jakeb\source\repos\Mission10\backend\Mission10\Mission10\obj\Debug\net8.0\Mission10.sourcelink.json

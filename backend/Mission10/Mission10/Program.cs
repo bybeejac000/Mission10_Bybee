@@ -11,9 +11,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+//Bring in context file 
 builder.Services.AddDbContext<BowlingLeagueContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("Bowling")));
 
+//link interface
 builder.Services.AddScoped<IBowlingRepo, BowlingRepo>();
 
 var app = builder.Build();
@@ -26,7 +29,7 @@ if (app.Environment.IsDevelopment())
 }
 
 
-app.UseCors(x => x.AllowAnyOrigin() // Allows any origin (use with caution)
+app.UseCors(x => x.AllowAnyOrigin() // Allows any origin 
                 .AllowAnyMethod()
                 .AllowAnyHeader());
 

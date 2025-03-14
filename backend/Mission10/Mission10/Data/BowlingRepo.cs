@@ -3,6 +3,7 @@ using Mission10.Models;
 
 namespace Mission10.Data
 {
+    //Create bowling repo
     public class BowlingRepo : IBowlingRepo
     {
         private readonly BowlingLeagueContext _context;
@@ -13,7 +14,7 @@ namespace Mission10.Data
         }
 
 
-        
+        //Create the method for the required API return
         public List<APIReturn> AllData()
         {
             List<APIReturn> allInfo = _context.Bowlers.Where(b => new[] { "Marlins", "Sharks" }.Contains(b.Team.TeamName))

@@ -1,5 +1,6 @@
 ﻿namespace Mission10.Models
 {
+    //Define model for the api return
     public class APIReturn
     {
         public string BowlerFirstName { get; set; }

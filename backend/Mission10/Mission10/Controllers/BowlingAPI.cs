@@ -5,6 +5,8 @@ using Mission10.Models;
 
 namespace Mission10.Controllers
 {
+    //Create API and bring in interface
+
     [Route("api/[controller]")]
     [ApiController]
     public class BowlingAPI : ControllerBase
@@ -15,7 +17,7 @@ namespace Mission10.Controllers
             _repo = temp;
         }
 
-
+        //Define method and call the interface method
         [HttpGet(Name = "GetBowlers")]
         public List<APIReturn> Get()
         {

@@ -1,9 +1,12 @@
 import { useEffect, useState } from 'react';
 import { bowler } from './types/bowler';
 
+//Declare the function
 function BowlerList() {
+  //Get the variable and make an incrementer
   const [bowlers, setFoods] = useState<bowler[]>([]);
 
+  //Get the data from the API
   useEffect(() => {
     const fetchBowler = async () => {
       const response = await fetch('http://localhost:3000/api/BowlingAPI');
@@ -14,6 +17,7 @@ function BowlerList() {
     fetchBowler();
   }, []);
 
+  //Return the table
   return (
     <>
       <h1>Bowlers</h1>

@@ -1,3 +1,4 @@
+//Create the header component
 function Header() {
   return (
     <>
